@@ -1,0 +1,57 @@
+.parentActivity {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    overflow-x: auto;
+    padding-top: 2%;
+}
+
+.activityHeaders {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2% 3%;
+}
+
+.activityBody {
+    margin-top: 5%;
+}
+
+/* .selected-btn {
+    background-color: '#5D3FD3' !important;
+    color: ' #202020';
+} */
+.selectedBtnd {
+    background-color: #5D3FD3;
+    color: white !important;
+}
+
+.selectedBtnl {
+    background-color: #1E50FF;
+    color: white !important;
+
+}
+
+.unselectedBtnd {
+    background-color: #202020;
+    color: #DCDCDC !important;
+
+}
+
+.unselectedBtnl {
+    color: #000;
+    background-color: #F0F8FF;
+    border-color: #F0F8FF;
+
+}
+
+.selectedcall {
+    border-bottom: 3px solid #1E50FF;
+    width: 20%;
+}
+
+.selectedcald {
+    border-bottom: 3px solid #5D3FD3;
+    width: 20%;
+
+}

@@ -1,0 +1,316 @@
+.card {
+    margin: 5% 0%;
+    border-radius: 10px !important;
+    color: #202020;
+
+}
+
+.card-body {
+    padding: 5% !important;
+}
+
+.cardRow1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardRow2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardrow2check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+/* .cardRow2 button {
+    border: none;
+} */
+
+.cardRow1 {
+    margin-bottom: 7%;
+}
+
+.cardRow1 label {
+    width: 70%;
+    text-align: left;
+    font-weight: 600;
+}
+
+
+
+.calendarHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.calenderArea {
+    /* padding: 7% 0%; */
+}
+
+.calendarBodyOne {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3%;
+    margin-bottom: 7%;
+}
+
+.calendar_type {
+    padding-bottom: 2%;
+    font-weight: 600;
+}
+
+.calendarBody {
+    /* border: 0.7px solid; 
+     */
+    border-top: 0.7px solid lightgray;
+    border-bottom: 0.7px solid lightgray;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.calendarBodyl {
+    background-color: #FAF9F6;
+
+}
+
+.calendarBodyd {
+    background-color: black;
+    ;
+
+}
+
+
+.userNameDisplayAreal {
+    height: 70px;
+    width: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    color: #5D3FD3;
+    font-weight: bold;
+
+
+}
+
+.userNameDisplayAread {
+    height: 70px;
+    width: 70px;
+    border: 1px solid;
+    /* border-radius: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    font-weight: bold;
+
+}
+
+
+/* .userNameDisplayArea span {} */
+
+
+.dateDisplayText {
+    font-weight: bold;
+}
+
+.calendarBodyTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.dateDisplayArea {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid gray; */
+    padding: 2%;
+    border-radius: 18px;
+    box-shadow: rgb(0, 0, 0, 0.24) 0px 3px 8px;
+    color: 'white' !important;
+    background-color: '#202020' !important;
+    width: 12%;
+}
+
+.selectedDate {
+    background-color: blue;
+    color: white;
+}
+
+.dateDisplayArea span:first-child {
+    font-weight: bold;
+
+}
+
+
+.activitiesArea {
+    padding: 7% 3%;
+    background-color: #E4F1FF;
+    overflow: auto;
+    /* opacity: .5; */
+}
+
+.selectedDated {
+    background-color: #5D3FD3;
+    color: #DCDCDC !important;
+}
+
+.selectedDatel {
+    background-color: #1E50FF;
+    color: #DCDCDC !important;
+}
+
+.unselectedDated {
+    background-color: #202020;
+    color: #DCDCDC !important;
+}
+
+.unselectedDatel {
+    background-color: #f8f9fa;
+    color: black !important;
+    /* color: #DCDCDC !important; */
+}
+
+.activitiesAread {
+    background-color: #202020;
+    color: #DCDCDC !important;
+}
+
+.ActivitiesHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.ActivitiesHeaderl {
+    color: #202020;
+}
+
+.ActivitiesHeaderd {
+    color: #F0F8FF;
+}
+
+.tastcountl {
+    color: #000;
+    background-color: #F0F8FF;
+    border-color: #F0F8FF;
+
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+
+}
+
+.tastcountd {
+    color: rgb(220, 220, 220);
+    background-color: rgb(93, 63, 211);
+    border-color: rgb(93, 63, 211);
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+}
+
+.activitiesNextarrow {
+    width: 20px;
+    height: 20px;
+
+}
+
+.activitiesNextarrow img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.c1 {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.c2 {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+input[type="range"] {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    /* creating a custom design */
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+    /*  overflow: hidden;  remove this line*/
+
+    /* New additions */
+    height: 6px;
+    background: #ccc;
+}
+
+/* Thumb: webkit */
+/* input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: #DCDCDC;
+
+    border-radius: 50%;
+    border: none;
+
+    transition: .2s ease-in-out;
+} */
+
+/* Thumb: Firefox */
+/*  */
+
+/* 
+ */
+
+
+input[type="range"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 26px;
+    height: 1px;
+    width: 170px;
+    background-color: grey;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 0;
+    height: 0;
+}
+
+#progressbar:hover input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 10px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+}
